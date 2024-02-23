@@ -1,0 +1,88 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: FigVar;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 0.625rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 8px 0px 0px rgba(0, 0, 0, 1);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  border: 0 solid black;
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.learning,
+.subject,
+.name {
+  color: hsl(0, 0%, 7%);
+}
+
+.learning,
+.name {
+  font-weight: 800;
+}
+
+.publish-date,
+.subject,
+.description {
+  margin-top: 0.75rem;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 0.875rem;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 20%;
+  padding: 0.313rem;
+  margin-top: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.subject {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+  width: 21rem;
+  margin-bottom: 1.5rem;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+#profile-img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+footer {
+  margin-top: 1.25rem;
+}
